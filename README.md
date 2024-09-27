@@ -19,11 +19,11 @@
 
     ``` cd django-blog ```
    
-6. Install all packages
+5. Install all packages
    
     ``` pip install -r requirements.txt ```
    
-8. Change settings.py file
+6. Change settings.py file
    
 ```
 DATABASES = {
@@ -42,9 +42,14 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 ```
 
-6. Migrate
+7. Migrate
+   
     ``` python manage.py migrate ```
+   
 8. Creaate superuser
+   
     ``` python manage.py createsuperuser ```
+   
 9. Run the development server
+    
     ``` python manage.py runserver ```
