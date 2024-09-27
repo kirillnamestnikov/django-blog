@@ -1,9 +1,16 @@
 # Django blog
 ### Quick start:
 1. git clone git@github.com:kirillnamestnikov/django-blog.git
-2. cd django-blog
-3. pip install -r requirements.txt
-4. Change settings.py file
+2. Create virtual environment
+``` python -m venv venv ```
+3. Activate the environment
+---Linux:
+   ``` source venv/bin/activate ```
+---Windows:
+   ``` venv/Scripts/activate.bat ```
+5. cd django-blog
+6. pip install -r requirements.txt
+7. Change settings.py file
 ```
 DATABASES = {
     'default': {
@@ -20,5 +27,5 @@ EMAIL_HOST_PASSWORD = 'your password'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 ```
-5. python manage.py migrate
-6. python manage.py runserver
+6. python manage.py migrate
+7. python manage.py runserver
